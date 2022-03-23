@@ -1,0 +1,38 @@
+{
+    "port": 9087,
+    "repo": {
+        "root": "/share/server",
+        "share": [
+            {
+                "path": "/read",
+                "rule": "read",
+                "recursive": true
+            },
+            {
+                "path": "/write",
+                "rule": "write",
+                "recursive": true
+            },
+            {
+                "path": "/readwrite",
+                "rule": "readwrite",
+                "recursive": true
+            },
+            {
+                "path": "/read_norecursive",
+                "rule": "read",
+                "recursive": false
+            },
+            {
+                "path": "/write_norecursive",
+                "rule": "write",
+                "recursive": false
+            },
+            {
+                "path": "/readwrite_norecursive",
+                "rule": "readwrite",
+                "recursive": false
+            }
+        ]
+    }
+}
