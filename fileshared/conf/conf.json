@@ -1,7 +1,7 @@
 {
     "port": 9087,
     "repo": {
-        "root": "/share/server",
+        "root": "E:\\WindowsLib\\Desktop\\server",
         "share": [
             {
                 "path": "/read",
