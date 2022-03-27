@@ -1,0 +1,12 @@
+{
+    "local": {
+        "path": "E:\\WindowsLib\\Desktop\\client\\upload\\",
+        "exclude": [
+            ".vscode",
+            ".git"
+        ]
+    },
+    "remote": {
+        "host": "http://127.0.0.1:9087/write/w3"
+    }
+}
