@@ -1,0 +1,11 @@
+{
+    "host": "http://127.0.0.1:9087",
+    "root_dir": "E:\\WindowsLib\\Desktop\\client",
+    "share": [
+        {
+            "op": "put",
+            "remote": "/write/w3",
+            "local": "/upload"
+        }
+    ]
+}
