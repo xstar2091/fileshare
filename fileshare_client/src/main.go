@@ -18,6 +18,7 @@ func main() {
 		utils.LogDebug("share info:%s", item.ToString())
 		if !fs.Work(item) {
 			ret = false
+			break
 		}
 	}
 	if !ret {
